@@ -1,7 +1,7 @@
 Dark Google Search
-============
+==================
 
-Entirely based on the original project From @marito:
+Entirely based on the original project From @marito. All credit goes to him!
 
 Google search from Python.
 
@@ -12,7 +12,9 @@ Usage example
 
     # Get the first 20 hits for: "Breaking Code" WordPress blog
     from googlesearch import search
-    for url in search('"Breaking Code" WordPress blog', stop=20):
+    
+    # Do you like AWS? :)
+    for url in search('"Breaking Code" WordPress blog', search_url='custom_search_url', stop=20):
         print(url)
 
 Installing
