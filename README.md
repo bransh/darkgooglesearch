@@ -18,6 +18,6 @@ Usage example
 Installing
 ----------
 
-git clone https://github.com/bransh/darkgooglesearch/
-python3 setup.py install
+    git clone https://github.com/bransh/darkgooglesearch/
+    python3 setup.py install
 
