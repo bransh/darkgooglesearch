@@ -37,11 +37,11 @@ chdir(here)
 
 # Package metadata.
 metadata = dict(
-    name='google',
-    provides=['googlesearch'],
+    name='darkgoogle',
+    provides=['darkgooglesearch'],
     requires=['beautifulsoup4'],
     packages=['darkgooglesearch'],
-    package_data={'googlesearch': ['user_agents.txt.gz']},
+    package_data={'darkgooglesearch': ['user_agents.txt.gz']},
     include_package_data=True,
     version="3.0.0",
     description="Python bindings to the Google search engine.",
