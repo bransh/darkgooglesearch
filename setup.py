@@ -41,7 +41,6 @@ metadata = dict(
     provides=['googlesearch'],
     requires=['beautifulsoup4'],
     packages=['darkgooglesearch'],
-    scripts=[join('scripts', 'google')],
     package_data={'googlesearch': ['user_agents.txt.gz']},
     include_package_data=True,
     version="3.0.0",
