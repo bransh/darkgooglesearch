@@ -1,5 +1,7 @@
-Google Search
+Dark Google Search
 ============
+
+Entirely based on the original project From @marito:
 
 Google search from Python.
 
@@ -16,4 +18,6 @@ Usage example
 Installing
 ----------
 
-    pip install google
+git clone https://github.com/bransh/darkgooglesearch/
+python3 setup.py install
+
